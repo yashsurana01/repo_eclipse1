@@ -30,9 +30,9 @@ public CountryService()
 }
 	
 
-public List getAllCountries()
+public List<Country> getAllCountries()
 {
-	List countries=new ArrayList(hm.values());
+	List<Country> countries=new ArrayList<>(hm.values());
 	return countries;
 }
 
