@@ -7,8 +7,7 @@ public class Country {
 	private String countryName;
 	private String city;
 	public Country()
-	{
-		
+	{	
 	}
 	
 	public Country(int id, String countryName) {
